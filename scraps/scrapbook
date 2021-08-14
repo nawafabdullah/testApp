@@ -1,0 +1,17 @@
+<TouchableHighlight onPress={Producer}>
+          <SafeAreaView style={styles.producerTouchable}>
+            <Image
+              style={styles.mainImages}
+              source={{ uri: producerImage }}
+            />
+          </SafeAreaView>
+        </TouchableHighlight>
+
+
+        <TouchableHighlight>
+          <View style={styles.buyerTouchable}>
+            <Image
+              style={styles.mainImages}
+              source={require('./images/buyer.jpg')} />
+          </View>
+        </TouchableHighlight>
